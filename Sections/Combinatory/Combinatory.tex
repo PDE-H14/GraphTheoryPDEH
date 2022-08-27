@@ -1,0 +1,135 @@
+\section{Nociones de combinatoria}
+	\begin{definition}{Conjunto finito}
+		Un conjunto $X$ es finito si $\exists\:n\in\N$ tal que hay una función biyectiva $f:x\mapsto[n]$ o bien $x=\varnothing$ 
+	\end{definition}
+	\begin{definition}{Cardinalidad}
+		Si $X$ es finito. definimos
+		\[
+			\abs{X}=
+			\begin{dcases}
+				0\text{ si }x=\varnothing.\\
+				\text{Único $n\in\N$ tal que $\exists f:x\mapsto[n]$} biyectiva.
+			\end{dcases}
+		\]
+	\end{definition}
+	\begin{theorem}{}
+		Si $X$ y $Y$ son conjuntos disjuntos, con $\abs{X}=n$ y $\abs{Y}=m$, entonces $\abs{X\cup Y}=n+m$.
+	\end{theorem}
+	\begin{demostration}{}
+		Sean $f:x\mapsto[n]$ y $g:x\mapsto[m]$ ambas biyectivas, y sea $h:(X\cup Y)\mapsto[n+m]$ definida por
+		\[
+		h(a)=
+		\begin{dcases}
+			f(a)\text{ si }a\in X.\\
+			n+g(a)\text{ si }a\in Y.
+		\end{dcases}
+		\]
+		TERMINAR...
+	\end{demostration}
+	\begin{corollary}{}
+		Si $X_1\dotso,X_n$ son conjuntos finitos disjuntos por pares, entonces
+		$$\abs{\bigcup_{i=1}^{n}{X_i}}=\sum_{i=1}^{n}{\abs{X_i}}$$
+	\end{corollary}
+	\begin{demostration}{}
+		Por inducción sobre $n$.
+		
+		Para $n=1$ obvio.
+
+		Para $n=2$ Es la proposición anterior.
+		
+		Supongamos que se cumple para n; y sean $X_1,\dotso,X_n,X_{n+1}$ conjuntos disjuntos por pares. Entonces
+		\begin{align*}
+			\abs{\bigcup_{i=1}^{n+1}{X_i}}&=\abs{\bigcup_{i=1}^{n}{X_i}\cupdot X_{n+1}}\\
+			&=\sum_{i=1}^{n}{\abs{X_i}}+\abs{X_{n+1}}\\
+			&=\sum_{i=1}^{n+1}{\abs{X_i}}
+		\end{align*}
+		\begin{flushright}
+			\qed
+		\end{flushright}
+	\end{demostration}
+	\begin{theorem}{Principio de inclusión exclusión}
+		Sean $A$ y $B$ conjuntos finitos, entonces
+		$$\abs{A\cup B}=\abs{A}+\abs{B}-\abs{A\cap B}$$
+	\end{theorem}
+	\begin{demostration}{}
+		Los conjuntos $A\setminus B$, $B\setminus A$, $A\cap B$, son disjuntos por pares y $A\cup B=(A\setminus B)\cup(B\setminus A)\cup(A\cap B)$, entonces
+		\begin{align*}
+			\abs{A\cup B}&=\abs{(A\setminus B)\cup(B\setminus A)\cup(A\cap B)} \\
+			&=\abs{A\setminus B}+\abs{B\setminus A}+\abs{A\cap B} \\
+			&=\abs{A\setminus B}+\abs{B\setminus A}+\abs{A\cap B}+\abs{A\cap B}-\abs{A\cap B} \\
+			&=\abs{A}+\abs{B}-\abs{A\cap B}
+		\end{align*}
+		\begin{flushright}
+			\qed
+		\end{flushright}
+	\end{demostration}
+	\begin{theorem}{Principio de Inclusión-Exclusión generalizado}
+		Sea $A_1,\dotso,A_n$ conjuntos finitos. Entonces:
+		\begin{align*}
+			\abs{A_1\cup\dotsb\cup A_n}&= \sum_{i=1}^{n}{\abs{A_i}}-\sum_{i< j\leq n}{\abs{A_i\cap A_j}}+\sum_{i< j< k\leq n}{\abs{A_i\cap A_j\cap A_k}}\dotsb\\
+			&\quad+(-1)^n\sum_{i_1< \dotsb\leq i_{n-1}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}+(-1)^{n+1}\abs{A_1\cap\dotsb\cap A_n} \\
+		\end{align*}
+	\end{theorem}
+	\begin{demostration}
+		Inducción sobre n.
+		
+		Para n=1 obvio.
+		
+		Para n=2 Principio de inclusión-exclusión simple.
+		
+		Supongamos que el enunciado es cierto para n, y sean $A_1,\dotso,A_n,A_{n+1}$ conjuntos finitos, entonces
+		\begin{align*}
+			\abs{A_1\cup\dotsb\cup A_n\cup A_{n+1}}&=\abs{(A_1\cup\dotsb\cup A_n)\cup A_{n+1}} \\
+			&=\abs{A_1\cup\dotsb\cup A_n}+\abs{A_{n+1}}-\abs{(A_1\cup\dotsb\cup A_n)\cap A_{n+1}} \\
+			&=\abs{A_1\cup\dotsb\cup A_n}+\abs{A_{n+1}}-\abs{(A_1\cap A_{n+1})\cup\dotsb\cup(A_n\cap A_{n+1})}\\
+			&= \textcolor{Rojop}{\sum_{i=1}^{n}{\abs{A_i}}}
+			-\textcolor{Azulp}{\sum_{i< j\leq n}{\abs{A_i\cap A_j}}}
+			+\textcolor{Verdep}{\sum_{i< j< k\leq n}{\abs{A_i\cap A_j\cap A_k}}}\dotsb\\
+			&\quad+\textcolor{ORANGEmanim}{(-1)^n\sum_{i_1< \dotsb\leq i_{n-1}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}}
+			+\textcolor{magenta}{(-1)^{n+1}\abs{A_1\cap\dotsb\cap A_n}}\\
+			&\quad+\textcolor{Rojop}{\abs{A_{n+1}}}
+			-\left(\textcolor{Azulp}{\sum_{i=1}^{n}{\abs{A_i\cap A_{n+1}}}}
+			-\textcolor{Verdep}{\sum_{i<j\le n}{\abs{(A_i\cap A_{n+1})\cap(A_j\cap A_{n+1})}}}+\dotsb\right.\\
+			&\quad\left.+\textcolor{ORANGEmanim}{(1)^{n}\sum_{i_1<\dotsb\leq i_{n-1}}{(A_{i_1}\cap A_{n+1})\cap\dotsb\cap(A_{i_{n-1}}\cap A_{n+1})}}
+			+\textcolor{magenta}{\abs{(A_1\cap A_{n+1})\cap\dotso\cap(A_n\cap A_{n+1})}}\right)\\
+			&=\textcolor{Rojop}{\sum_{i=1}^{n+1}{\abs{A_i}}}
+			-\textcolor{Azulp}{\sum_{i<j\le n+1}{\abs{A_i\cap A_j}}}
+			+\textcolor{Verdep}{\sum_{i< j< k\leq n+1}{\abs{A_i\cap A_j\cap A_k}}}+\dotsb\\
+			&\quad+\textcolor{ORANGEmanim}{(-1)^{n+1}\sum_{i_1< \dotsb\leq i_{n}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}}
+			+\textcolor{magenta}{(-1)^{n+2}\abs{A_1\cap\dotsb\cap A_n}}
+		\end{align*}
+		\begin{flushright}
+			\qed
+		\end{flushright}
+	\end{demostration}
+	\begin{theorem}{}
+		Si $A$ y $B$ son conjuntos finitos, entonces
+		$$\abs{A\times B}=\abs{A}\abs{B}$$
+	\end{theorem}
+	\begin{demostration}{}
+		Sea $n=\abs{A}$, $m=\abs{B}$ y $f:A\longmapsto [[n]]$, $g:B\longmapsto [[m]]$ funciones biyectivas. Sea
+		\begin{align*}
+			h:(A&\times B)\longmapsto[[nm]] \\
+			(a&,b)\longrightarrow f(a)+(g(b)-1)n
+		\end{align*}
+		TERMINAR...
+	\end{demostration}
+	\begin{corollary}{}
+		Si $A_1,\dotso,A_n$ son conjuntos finitos, entonces 
+		$$\abs{A_1\times\dotsb\times A_n}=\prod_{i=1}^{n}{\abs{A_i}}$$
+	\end{corollary}
+	\begin{demostration}{}
+		Por inducción sobre $n$
+		Para $n=1$ fácil.
+		Para $n=2$ es el teorema anterior.
+		Supongamos para $n$ y sean $A_1,\dotso,A_n,A_{n+1}$ conjuntos finitos, entonces
+		\begin{align*}
+			\abs{A_1\times\dotsb\times A_n\times A_{n+1}}&=\abs{(A_1\times\dotso\times A_n)\times A_{n+1}} \\
+			&=\abs{(A_1\times\dotso\times A_n)}\abs{A_{n+1}}\\
+			&=\prod_{i=1}^{n}{\abs{A_i}}\abs{A_{n+1}}\\
+			&=\prod_{i=1}^{n+1}{\abs{A_i}}
+		\end{align*}
+		\begin{flushright}
+			\qed
+		\end{flushright}
+	\end{demostration}
