@@ -1,76 +1,78 @@
 \section{Nociones de combinatoria}
-	\begin{definition}{Conjunto finito}
-		Un conjunto $X$ es finito si $\exists\:n\in\N$ tal que hay una función biyectiva $f:x\mapsto[n]$ o bien $x=\varnothing$ 
-	\end{definition}
-	\begin{definition}{Cardinalidad}
-		Si $X$ es finito. definimos
-		\[
-			\abs{X}=
+	\subsection{Algunas definiciones básicas}
+		\begin{definition}{Conjunto finito}
+			Un conjunto $X$ es finito si $\exists\:n\in\N$ tal que hay una función biyectiva $f:x\mapsto[n]$ o bien $x=\varnothing$ 
+		\end{definition}
+		\begin{definition}{Cardinalidad}
+			Si $X$ es finito. definimos
+			\[
+				\abs{X}=
+				\begin{dcases}
+					0\text{ si }x=\varnothing.\\
+					\text{Único $n\in\N$ tal que $\exists f:x\mapsto[n]$} biyectiva.
+				\end{dcases}
+			\]
+		\end{definition}
+		\begin{theorem}{}
+			Si $X$ y $Y$ son conjuntos disjuntos, con $\abs{X}=n$ y $\abs{Y}=m$, entonces $\abs{X\cup Y}=n+m$.
+		\end{theorem}
+		\begin{demostration}{}
+			Sean $f:x\mapsto[n]$ y $g:x\mapsto[m]$ ambas biyectivas, y sea $h:(X\cup Y)\mapsto[n+m]$ definida por
+			\[
+			h(a)=
 			\begin{dcases}
-				0\text{ si }x=\varnothing.\\
-				\text{Único $n\in\N$ tal que $\exists f:x\mapsto[n]$} biyectiva.
+				f(a)\text{ si }a\in X.\\
+				n+g(a)\text{ si }a\in Y.
 			\end{dcases}
-		\]
-	\end{definition}
-	\begin{theorem}{}
-		Si $X$ y $Y$ son conjuntos disjuntos, con $\abs{X}=n$ y $\abs{Y}=m$, entonces $\abs{X\cup Y}=n+m$.
-	\end{theorem}
-	\begin{demostration}{}
-		Sean $f:x\mapsto[n]$ y $g:x\mapsto[m]$ ambas biyectivas, y sea $h:(X\cup Y)\mapsto[n+m]$ definida por
-		\[
-		h(a)=
-		\begin{dcases}
-			f(a)\text{ si }a\in X.\\
-			n+g(a)\text{ si }a\in Y.
-		\end{dcases}
-		\]
-		TERMINAR...
-	\end{demostration}
-	\begin{corollary}{}
-		Si $X_1\dotso,X_n$ son conjuntos finitos disjuntos por pares, entonces
-		$$\abs{\bigcup_{i=1}^{n}{X_i}}=\sum_{i=1}^{n}{\abs{X_i}}$$
-	\end{corollary}
-	\begin{demostration}{}
-		Por inducción sobre $n$.
-		
-		Para $n=1$ obvio.
-
-		Para $n=2$ Es la proposición anterior.
-		
-		Supongamos que se cumple para n; y sean $X_1,\dotso,X_n,X_{n+1}$ conjuntos disjuntos por pares. Entonces
-		\begin{align*}
-			\abs{\bigcup_{i=1}^{n+1}{X_i}}&=\abs{\bigcup_{i=1}^{n}{X_i}\cupdot X_{n+1}}\\
-			&=\sum_{i=1}^{n}{\abs{X_i}}+\abs{X_{n+1}}\\
-			&=\sum_{i=1}^{n+1}{\abs{X_i}}
-		\end{align*}
-		\begin{flushright}
-			\qed
-		\end{flushright}
-	\end{demostration}
-	\begin{theorem}{Principio de inclusión exclusión}
-		Sean $A$ y $B$ conjuntos finitos, entonces
-		$$\abs{A\cup B}=\abs{A}+\abs{B}-\abs{A\cap B}$$
-	\end{theorem}
-	\begin{demostration}{}
-		Los conjuntos $A\setminus B$, $B\setminus A$, $A\cap B$, son disjuntos por pares y $A\cup B=(A\setminus B)\cup(B\setminus A)\cup(A\cap B)$, entonces
-		\begin{align*}
-			\abs{A\cup B}&=\abs{(A\setminus B)\cup(B\setminus A)\cup(A\cap B)} \\
-			&=\abs{A\setminus B}+\abs{B\setminus A}+\abs{A\cap B} \\
-			&=\abs{A\setminus B}+\abs{B\setminus A}+\abs{A\cap B}+\abs{A\cap B}-\abs{A\cap B} \\
-			&=\abs{A}+\abs{B}-\abs{A\cap B}
-		\end{align*}
-		\begin{flushright}
-			\qed
-		\end{flushright}
-	\end{demostration}
-	\begin{theorem}{Principio de Inclusión-Exclusión generalizado}
-		Sea $A_1,\dotso,A_n$ conjuntos finitos. Entonces:
-		\begin{align*}
-			\abs{A_1\cup\dotsb\cup A_n}&= \sum_{i=1}^{n}{\abs{A_i}}-\sum_{i< j\leq n}{\abs{A_i\cap A_j}}+\sum_{i< j< k\leq n}{\abs{A_i\cap A_j\cap A_k}}\dotsb\\
-			&\quad+(-1)^n\sum_{i_1< \dotsb\leq i_{n-1}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}+(-1)^{n+1}\abs{A_1\cap\dotsb\cap A_n} \\
-		\end{align*}
-	\end{theorem}
-	\begin{demostration}
+			\]
+			TERMINAR...
+		\end{demostration}
+		\begin{corollary}{}
+			Si $X_1\dotso,X_n$ son conjuntos finitos disjuntos por pares, entonces
+			$$\abs{\bigcup_{i=1}^{n}{X_i}}=\sum_{i=1}^{n}{\abs{X_i}}$$
+		\end{corollary}
+		\begin{demostration}{}
+			Por inducción sobre $n$.
+			
+			Para $n=1$ obvio.
+	
+			Para $n=2$ Es la proposición anterior.
+			
+			Supongamos que se cumple para n; y sean $X_1,\dotso,X_n,X_{n+1}$ conjuntos disjuntos por pares. Entonces
+			\begin{align*}
+				\abs{\bigcup_{i=1}^{n+1}{X_i}}&=\abs{\bigcup_{i=1}^{n}{X_i}\cupdot X_{n+1}}\\
+				&=\sum_{i=1}^{n}{\abs{X_i}}+\abs{X_{n+1}}\\
+				&=\sum_{i=1}^{n+1}{\abs{X_i}}
+			\end{align*}
+			\begin{flushright}
+				\qed
+			\end{flushright}
+		\end{demostration}
+	\subsection{Principio de Inclusión-Exclusión}
+		\begin{theorem}{Principio de inclusión-exclusión}
+			Sean $A$ y $B$ conjuntos finitos, entonces
+			$$\abs{A\cup B}=\abs{A}+\abs{B}-\abs{A\cap B}$$
+		\end{theorem}
+		\begin{demostration}{}
+			Los conjuntos $A\setminus B$, $B\setminus A$, $A\cap B$, son disjuntos por pares y $A\cup B=(A\setminus B)\cup(B\setminus A)\cup(A\cap B)$, entonces
+			\begin{align*}
+				\abs{A\cup B}&=\abs{(A\setminus B)\cup(B\setminus A)\cup(A\cap B)} \\
+				&=\abs{A\setminus B}+\abs{B\setminus A}+\abs{A\cap B} \\
+				&=\abs{A\setminus B}+\abs{B\setminus A}+\abs{A\cap B}+\abs{A\cap B}-\abs{A\cap B} \\
+				&=\abs{A}+\abs{B}-\abs{A\cap B}
+			\end{align*}
+			\begin{flushright}
+				\qed
+			\end{flushright}
+		\end{demostration}
+		\begin{theorem}{Principio de inclusión-exclusión generalizado}
+			Sea $A_1,\dotso,A_n$ conjuntos finitos. Entonces:
+			\begin{align*}
+				\abs{A_1\cup\dotsb\cup A_n}&= \sum_{i=1}^{n}{\abs{A_i}}-\sum_{i< j\leq n}{\abs{A_i\cap A_j}}+\sum_{i< j< k\leq n}{\abs{A_i\cap A_j\cap A_k}}\dotsb\\
+				&\quad+(-1)^n\sum_{i_1< \dotsb\leq i_{n-1}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}+(-1)^{n+1}\abs{A_1\cap\dotsb\cap A_n} \\
+			\end{align*}
+		\end{theorem}
+		\begin{demostration}
 		Inducción sobre n.
 		
 		Para n=1 obvio.
@@ -102,34 +104,72 @@
 			\qed
 		\end{flushright}
 	\end{demostration}
-	\begin{theorem}{}
-		Si $A$ y $B$ son conjuntos finitos, entonces
-		$$\abs{A\times B}=\abs{A}\abs{B}$$
-	\end{theorem}
-	\begin{demostration}{}
-		Sea $n=\abs{A}$, $m=\abs{B}$ y $f:A\longmapsto [[n]]$, $g:B\longmapsto [[m]]$ funciones biyectivas. Sea
-		\begin{align*}
-			h:(A&\times B)\longmapsto[[nm]] \\
-			(a&,b)\longrightarrow f(a)+(g(b)-1)n
-		\end{align*}
-		TERMINAR...
-	\end{demostration}
-	\begin{corollary}{}
-		Si $A_1,\dotso,A_n$ son conjuntos finitos, entonces 
-		$$\abs{A_1\times\dotsb\times A_n}=\prod_{i=1}^{n}{\abs{A_i}}$$
-	\end{corollary}
-	\begin{demostration}{}
-		Por inducción sobre $n$
-		Para $n=1$ fácil.
-		Para $n=2$ es el teorema anterior.
-		Supongamos para $n$ y sean $A_1,\dotso,A_n,A_{n+1}$ conjuntos finitos, entonces
-		\begin{align*}
-			\abs{A_1\times\dotsb\times A_n\times A_{n+1}}&=\abs{(A_1\times\dotso\times A_n)\times A_{n+1}} \\
-			&=\abs{(A_1\times\dotso\times A_n)}\abs{A_{n+1}}\\
-			&=\prod_{i=1}^{n}{\abs{A_i}}\abs{A_{n+1}}\\
-			&=\prod_{i=1}^{n+1}{\abs{A_i}}
-		\end{align*}
+	\subsection{Conjunto potencia}
+		\begin{theorem}{}
+			Si $A$ y $B$ son conjuntos finitos, entonces
+			$$\abs{A\times B}=\abs{A}\abs{B}$$
+		\end{theorem}
+		\begin{demostration}{}
+			Sea $n=\abs{A}$, $m=\abs{B}$ y $f:A\longmapsto [[n]]$, $g:B\longmapsto [[m]]$ funciones biyectivas. Sea
+			\begin{align*}
+				h:(A&\times B)\longmapsto[[nm]] \\
+				(a&,b)\longrightarrow f(a)+(g(b)-1)n
+			\end{align*}
+			TERMINAR...
+		\end{demostration}
+		\begin{corollary}{}
+			Si $A_1,\dotso,A_n$ son conjuntos finitos, entonces 
+			$$\abs{A_1\times\dotsb\times A_n}=\prod_{i=1}^{n}{\abs{A_i}}$$
+		\end{corollary}
+		\begin{demostration}{}
+			Por inducción sobre $n$
+			Para $n=1$ fácil.
+			Para $n=2$ es el teorema anterior.
+			Supongamos para $n$ y sean $A_1,\dotso,A_n,A_{n+1}$ conjuntos finitos, entonces
+			\begin{align*}
+				\abs{A_1\times\dotsb\times A_n\times A_{n+1}}&=\abs{(A_1\times\dotso\times A_n)\times A_{n+1}} \\
+				&=\abs{(A_1\times\dotso\times A_n)}\abs{A_{n+1}}\\
+				&=\prod_{i=1}^{n}{\abs{A_i}}\abs{A_{n+1}}\\
+				&=\prod_{i=1}^{n+1}{\abs{A_i}}
+			\end{align*}
+			\begin{flushright}
+				\qed
+			\end{flushright}
+		\end{demostration}
+		\begin{definition}{Conjunto potencia}
+			Sea A un conjunto $\wp(A)=\{x|x\subseteq A\}$ 
+		\end{definition}
+		\begin{theorem}{}
+			Sea $A$ un conjunto finito, entonces
+			$$\abs{\wp(A)}=2^{\abs{A}}$$
+		\end{theorem}
+		\begin{demostration}{}
+		
+		Supongamos que $\abs{A}=n$, $A=\{a_1,a_2,\dotso,a_n\}$, Notemos que la función $$f:(\{0,1\}\times\{0,1\}\times\dotsb\times\{0,1\})\longmapsto\wp(A)$$ es biyectiva. Por lo tanto $$\abs{\wp(A)}=\abs{\{0,1\}\times\{0,1\}\times\dotsb\times\{0,1\}}=2^n$$
 		\begin{flushright}
 			\qed
 		\end{flushright}
 	\end{demostration}
+	\subsection{Permutaciones}
+		\begin{definition}{Permutación}
+			Sea $A$ un conjunto finito tal que $A=\{a_1,a_2,\dotso,a_n\}$
+			$$S_A=\{(a_{i_1},a_{i_2},\dotso,a_{i_j},\dotso,a_{i_n})|i_j\neq i_k\text{ si } j\neq k\}$$
+		\end{definition}
+		\begin{theorem}{}
+			Si $A$ es un conjunto finito y $\abs{A}=n$, entonces $\abs{S_A}=n!$
+		\end{theorem}
+		\begin{demostration}{}
+			Sea $A=\{a_1,a_2,\dotso,a_n\}$, procedamos por inducción sobre n.
+			Nuestra base de inducción es $\abs{S_0}=\abs{S_1}=1$.
+			Ahora, supongamos que para $S_n$ se cumple $\abs{S_n}=n!$.
+			$S_{n+1}$ tiene posiciones $n+1$, por lo que hay $n+1$ nuevas posibilidades, entonces
+			$$\abs{S_{n+1}}=n+1\abs{S_n}=(n+1)!$$
+		\end{demostration}
+	\subsection{Coeficiente binomial}
+		\begin{definition}{Coeficiente binomial}
+			Dados $K,n\in\N\cup\{0\}$ con $k\le n$, se define $$\binom{n}{k}=\abs{\{x\in\wp(A)|\abs{x}=k\}}\text{ donde }\abs{A}=n$$
+		\end{definition}
+		\begin{theorem}{}
+			$$\binom{n}{k}=\frac{n!}{k!(n-k)!}$$
+		\end{theorem}
+

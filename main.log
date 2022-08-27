@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.6.14)  27 AUG 2022 00:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.6.14)  27 AUG 2022 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1480,6 +1480,12 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1580,17 +1586,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 (/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<img/IPNLogoG.png, id=34, 1204.5pt x 855.195pt>
+<img/IPNLogoG.png, id=54, 1204.5pt x 855.195pt>
 File: img/IPNLogoG.png Graphic file (type png)
 <use img/IPNLogoG.png>
 Package pdftex.def Info: img/IPNLogoG.png  used on input line 12.
 (pdftex.def)             Requested size: 60.09987pt x 42.67912pt.
-<img/ESFMLogo.png, id=36, 413.71956pt x 513.92pt>
+<img/ESFMLogo.png, id=56, 413.71956pt x 513.92pt>
 File: img/ESFMLogo.png Graphic file (type png)
 <use img/ESFMLogo.png>
 Package pdftex.def Info: img/ESFMLogo.png  used on input line 18.
 (pdftex.def)             Requested size: 34.35449pt x 42.67912pt.
-<img/Girasol-1sF.png, id=37, 2409.0pt x 2409.0pt>
+<img/Girasol-1sF.png, id=57, 2409.0pt x 2409.0pt>
 File: img/Girasol-1sF.png Graphic file (type png)
 <use img/Girasol-1sF.png>
 Package pdftex.def Info: img/Girasol-1sF.png  used on input line 34.
@@ -1627,69 +1633,111 @@ LaTeX Info: Redefining \% on input line 2.
 (Sections/Combinatory/Combinatory.tex
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 2.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 4.
+(mdframed)              on input line 3.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 5.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 14.
+(mdframed)              on input line 6.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 15.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 17.
+(mdframed)              on input line 16.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 29.
+(mdframed)              on input line 18.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 32.
+(mdframed)              on input line 30.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 33.
 
-Overfull \hbox (0.97427pt too wide) in paragraph at lines 40--41
+Overfull \hbox (0.97427pt too wide) in paragraph at lines 41--42
 []\T1/cmr/m/n/10 Supongamos que se cumple para n; y sean $\OML/cmm/m/it/10 X[];
  []  ; X[]; X[]$ \T1/cmr/m/n/10 conjuntos disjuntos por pares. Entonces 
  []
 
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 50.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 53.
-Package mdframed Info: Not enough space on this page on input line 53.
 [3]
-Package mdframed Info: Not enough space on this page on input line 53.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 66.
+(mdframed)              on input line 52.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 72.
+(mdframed)              on input line 55.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 68.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 74.
 
-Overfull \hbox (66.4294pt too wide) detected at line 100
+Overfull \hbox (66.4294pt too wide) detected at line 102
 []
+ []
+
+[4]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 108.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 111.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 120.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 123.
+ [5]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 139.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 141.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 142.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 145.
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
  []
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 105.
+(mdframed)              on input line 154.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 108.
-[4]
-Package mdframed Info: Not enough space on this page on input line 108.
+(mdframed)              on input line 157.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 117.
+(mdframed)              on input line 158.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 120.
-) [5] (main.aux
+(mdframed)              on input line 160.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 169.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 171.
+Package mdframed Info: Not enough space on this page on input line 171.
+[6]
+Package mdframed Info: Not enough space on this page on input line 171.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 172.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 174.
+) [7] (main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
@@ -1699,36 +1747,37 @@ LaTeX Info: Redefining \% on input line 24.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EE089569401817CCB1B4ACFE14EFD525;169.
+(rerunfilecheck)             Checksum: B7C6CAF1CB282D9D8CC7ACB6673F4821;1031.
  ) 
 Here is how much of TeX's memory you used:
- 38505 strings out of 480549
- 761730 string characters out of 2895194
- 1148920 words of memory out of 3000000
- 55600 multiletter control sequences out of 15000+600000
- 485609 words of font info for 71 fonts, out of 8000000 for 9000
+ 38537 strings out of 480549
+ 762264 string characters out of 2895194
+ 1145118 words of memory out of 3000000
+ 55618 multiletter control sequences out of 15000+600000
+ 486385 words of font info for 72 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  88i,17n,114p,486b,946s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ec
-bx1000.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
-pi600/ecrm1000.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfour/jknap
-pen/ec/dpi600/ecrm1728.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfo
-ur/jknappen/ec/dpi600/ecrm2074.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts
-/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk> </home/porfiriodeh/.miktex/texmfs/da
-ta/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk></usr/local/share/miktex-texm
-f/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/miktex-texmf/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type
-1/public/amsfonts/cm/cmmi5.pfb></usr/local/share/miktex-texmf/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
-cmr5.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/
-share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/share/m
-iktex-texmf/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (5 pages, 3503973 bytes).
+bx1200.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
+pi600/ecbx1000.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfour/jknap
+pen/ec/dpi600/ecrm1000.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfo
+ur/jknappen/ec/dpi600/ecrm1728.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts
+/pk/ljfour/jknappen/ec/dpi600/ecrm2074.pk> </home/porfiriodeh/.miktex/texmfs/da
+ta/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk> </home/porfiriodeh/.miktex/t
+exmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk></usr/local/share/mik
+tex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/miktex-te
+xmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fo
+nts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/share/miktex-texmf/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></usr/local/share/miktex-texmf/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsf
+onts/cm/cmr5.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
+cmr7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></us
+r/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local
+/share/miktex-texmf/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (7 pages, 3532427 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
