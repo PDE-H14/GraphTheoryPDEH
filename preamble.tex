@@ -297,41 +297,15 @@
 			frametitle={%
 				\tikz[baseline=(current bounding box.east),outer sep=0pt]
 				\node[anchor=east,rectangle,fill=Moradop]
-				{\strut \textcolor{Blancop}{Propiedad}~\theproperty};}}
+				{\strut \textcolor{Blancop}{Propiedad~\theproperty}};}}
 	}%
 	{\mdfsetup{%
 			frametitle={%
 				\tikz[baseline=(current bounding box.east),outer sep=0pt]
-				%\node[anchor=east,rectangle,fill=Moradop]
-				{\strut \textcolor{Blancop}{Propiedad}~\theproperty:~#2};}}%
+				\node[anchor=east,rectangle,fill=Moradop]
+				{\strut \textcolor{Blancop}{Propiedad~\theproperty:~#2}};}}%
 	}%
 	\mdfsetup{innertopmargin=10pt,linecolor=Moradop,%
-		linewidth=3pt,topline=true,bottomline=false,leftline=false,rightline=false,%
-		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
-	}
-	\begin{mdframed}[]\relax%
-		\label{#2}}{\end{mdframed}}
-%%%%%%%%%%%%%%%% Propiedad %%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%% Postulado %%%%%%%%%%%%%%%
-\newcounter{postulate}[section]\setcounter{postulate}{0}
-\renewcommand{\thepostulate}{\textcolor{Blancop}{\thesection.\arabic{postulate}}}
-\newenvironment{postulate}[2][]{%
-	\refstepcounter{postulate}%
-	\ifstrempty{#2}%
-	{\mdfsetup{%
-			frametitle={%
-				\tikz[baseline=(current bounding box.east),outer sep=0pt]
-				\node[anchor=east,rectangle,fill=Azulp]
-				{\strut \textcolor{Blancop}{Postulado}~\thepostulate};}}
-	}%
-	{\mdfsetup{%
-			frametitle={%
-				\tikz[baseline=(current bounding box.east),outer sep=0pt]
-				%\node[anchor=east,rectangle,fill=Azulp]
-				{\strut \textcolor{Blancop}{Postulado}~\thepostulate:~#2};}}%
-	}%
-	\mdfsetup{innertopmargin=10pt,linecolor=Azulp,%
 		linewidth=3pt,topline=true,bottomline=false,leftline=false,rightline=false,%
 		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
 	}

@@ -6,11 +6,11 @@
 		\begin{definition}{Cardinalidad}
 			Si $X$ es finito. definimos
 			\[
-				\abs{X}=
-				\begin{dcases}
-					0\text{ si }x=\varnothing.\\
-					\text{Único $n\in\N$ tal que $\exists f:x\mapsto[n]$} biyectiva.
-				\end{dcases}
+			\abs{X}=
+			\begin{dcases}
+				0\text{ si }x=\varnothing.\\
+				\text{Único $n\in\N$ tal que $\exists f:x\mapsto[n]$} biyectiva.
+			\end{dcases}
 			\]
 		\end{definition}
 		\begin{theorem}{}
@@ -35,7 +35,7 @@
 			Por inducción sobre $n$.
 			
 			Para $n=1$ obvio.
-	
+			
 			Para $n=2$ Es la proposición anterior.
 			
 			Supongamos que se cumple para n; y sean $X_1,\dotso,X_n,X_{n+1}$ conjuntos disjuntos por pares. Entonces
@@ -73,37 +73,37 @@
 			\end{align*}
 		\end{theorem}
 		\begin{demostration}
-		Inducción sobre n.
-		
-		Para n=1 obvio.
-		
-		Para n=2 Principio de inclusión-exclusión simple.
-		
-		Supongamos que el enunciado es cierto para n, y sean $A_1,\dotso,A_n,A_{n+1}$ conjuntos finitos, entonces
-		\begin{align*}
-			\abs{A_1\cup\dotsb\cup A_n\cup A_{n+1}}&=\abs{(A_1\cup\dotsb\cup A_n)\cup A_{n+1}} \\
-			&=\abs{A_1\cup\dotsb\cup A_n}+\abs{A_{n+1}}-\abs{(A_1\cup\dotsb\cup A_n)\cap A_{n+1}} \\
-			&=\abs{A_1\cup\dotsb\cup A_n}+\abs{A_{n+1}}-\abs{(A_1\cap A_{n+1})\cup\dotsb\cup(A_n\cap A_{n+1})}\\
-			&= \textcolor{Rojop}{\sum_{i=1}^{n}{\abs{A_i}}}
-			-\textcolor{Azulp}{\sum_{i< j\leq n}{\abs{A_i\cap A_j}}}
-			+\textcolor{Verdep}{\sum_{i< j< k\leq n}{\abs{A_i\cap A_j\cap A_k}}}\dotsb\\
-			&\quad+\textcolor{ORANGEmanim}{(-1)^n\sum_{i_1< \dotsb\leq i_{n-1}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}}
-			+\textcolor{magenta}{(-1)^{n+1}\abs{A_1\cap\dotsb\cap A_n}}\\
-			&\quad+\textcolor{Rojop}{\abs{A_{n+1}}}
-			-\left(\textcolor{Azulp}{\sum_{i=1}^{n}{\abs{A_i\cap A_{n+1}}}}
-			-\textcolor{Verdep}{\sum_{i<j\le n}{\abs{(A_i\cap A_{n+1})\cap(A_j\cap A_{n+1})}}}+\dotsb\right.\\
-			&\quad\left.+\textcolor{ORANGEmanim}{(1)^{n}\sum_{i_1<\dotsb\leq i_{n-1}}{(A_{i_1}\cap A_{n+1})\cap\dotsb\cap(A_{i_{n-1}}\cap A_{n+1})}}
-			+\textcolor{magenta}{\abs{(A_1\cap A_{n+1})\cap\dotso\cap(A_n\cap A_{n+1})}}\right)\\
-			&=\textcolor{Rojop}{\sum_{i=1}^{n+1}{\abs{A_i}}}
-			-\textcolor{Azulp}{\sum_{i<j\le n+1}{\abs{A_i\cap A_j}}}
-			+\textcolor{Verdep}{\sum_{i< j< k\leq n+1}{\abs{A_i\cap A_j\cap A_k}}}+\dotsb\\
-			&\quad+\textcolor{ORANGEmanim}{(-1)^{n+1}\sum_{i_1< \dotsb\leq i_{n}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}}
-			+\textcolor{magenta}{(-1)^{n+2}\abs{A_1\cap\dotsb\cap A_n}}
-		\end{align*}
-		\begin{flushright}
-			\qed
-		\end{flushright}
-	\end{demostration}
+			Inducción sobre n.
+			
+			Para n=1 obvio.
+			
+			Para n=2 Principio de inclusión-exclusión simple.
+			
+			Supongamos que el enunciado es cierto para n, y sean $A_1,\dotso,A_n,A_{n+1}$ conjuntos finitos, entonces
+			\begin{align*}
+				\abs{A_1\cup\dotsb\cup A_n\cup A_{n+1}}&=\abs{(A_1\cup\dotsb\cup A_n)\cup A_{n+1}} \\
+				&=\abs{A_1\cup\dotsb\cup A_n}+\abs{A_{n+1}}-\abs{(A_1\cup\dotsb\cup A_n)\cap A_{n+1}} \\
+				&=\abs{A_1\cup\dotsb\cup A_n}+\abs{A_{n+1}}-\abs{(A_1\cap A_{n+1})\cup\dotsb\cup(A_n\cap A_{n+1})}\\
+				&= \textcolor{Rojop}{\sum_{i=1}^{n}{\abs{A_i}}}
+				-\textcolor{Azulp}{\sum_{i< j\leq n}{\abs{A_i\cap A_j}}}
+				+\textcolor{Verdep}{\sum_{i< j< k\leq n}{\abs{A_i\cap A_j\cap A_k}}}\dotsb\\
+				&\quad+\textcolor{ORANGEmanim}{(-1)^n\sum_{i_1< \dotsb\leq i_{n-1}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}}
+				+\textcolor{magenta}{(-1)^{n+1}\abs{A_1\cap\dotsb\cap A_n}}\\
+				&\quad+\textcolor{Rojop}{\abs{A_{n+1}}}
+				-\left(\textcolor{Azulp}{\sum_{i=1}^{n}{\abs{A_i\cap A_{n+1}}}}
+				-\textcolor{Verdep}{\sum_{i<j\le n}{\abs{(A_i\cap A_{n+1})\cap(A_j\cap A_{n+1})}}}+\dotsb\right.\\
+				&\quad\left.+\textcolor{ORANGEmanim}{(1)^{n}\sum_{i_1<\dotsb\leq i_{n-1}}{(A_{i_1}\cap A_{n+1})\cap\dotsb\cap(A_{i_{n-1}}\cap A_{n+1})}}
+				+\textcolor{magenta}{\abs{(A_1\cap A_{n+1})\cap\dotso\cap(A_n\cap A_{n+1})}}\right)\\
+				&=\textcolor{Rojop}{\sum_{i=1}^{n+1}{\abs{A_i}}}
+				-\textcolor{Azulp}{\sum_{i<j\le n+1}{\abs{A_i\cap A_j}}}
+				+\textcolor{Verdep}{\sum_{i< j< k\leq n+1}{\abs{A_i\cap A_j\cap A_k}}}+\dotsb\\
+				&\quad+\textcolor{ORANGEmanim}{(-1)^{n+1}\sum_{i_1< \dotsb\leq i_{n}}{\abs{A_{i_1}\cap\dotsb\cap A_{i_{n-1}}}}}
+				+\textcolor{magenta}{(-1)^{n+2}\abs{A_1\cap\dotsb\cap A_n}}
+			\end{align*}
+			\begin{flushright}
+				\qed
+			\end{flushright}
+		\end{demostration}
 	\subsection{Conjunto potencia}
 		\begin{theorem}{}
 			Si $A$ y $B$ son conjuntos finitos, entonces
@@ -144,12 +144,12 @@
 			$$\abs{\wp(A)}=2^{\abs{A}}$$
 		\end{theorem}
 		\begin{demostration}{}
-		
-		Supongamos que $\abs{A}=n$, $A=\{a_1,a_2,\dotso,a_n\}$, Notemos que la función $$f:(\{0,1\}\times\{0,1\}\times\dotsb\times\{0,1\})\longmapsto\wp(A)$$ es biyectiva. Por lo tanto $$\abs{\wp(A)}=\abs{\{0,1\}\times\{0,1\}\times\dotsb\times\{0,1\}}=2^n$$
-		\begin{flushright}
-			\qed
-		\end{flushright}
-	\end{demostration}
+			
+			Supongamos que $\abs{A}=n$, $A=\{a_1,a_2,\dotso,a_n\}$, Notemos que la función $$f:(\{0,1\}\times\{0,1\}\times\dotsb\times\{0,1\})\longmapsto\wp(A)$$ es biyectiva. Por lo tanto $$\abs{\wp(A)}=\abs{\{0,1\}\times\{0,1\}\times\dotsb\times\{0,1\}}=2^n$$
+			\begin{flushright}
+				\qed
+			\end{flushright}
+		\end{demostration}
 	\subsection{Permutaciones}
 		\begin{definition}{Permutación}
 			Sea $A$ un conjunto finito tal que $A=\{a_1,a_2,\dotso,a_n\}$
@@ -170,6 +170,66 @@
 			Dados $K,n\in\N\cup\{0\}$ con $k\le n$, se define $$\binom{n}{k}=\abs{\{x\in\wp(A)|\abs{x}=k\}}\text{ donde }\abs{A}=n$$
 		\end{definition}
 		\begin{theorem}{}
+			El número de $k$ combinaciones en $n$ objetos es
 			$$\binom{n}{k}=\frac{n!}{k!(n-k)!}$$
 		\end{theorem}
-
+		\begin{demostration}{}
+			TERMINAR
+		\end{demostration}
+		\begin{theorem}{Teorema del binomio (Binomio de Newton)}
+			Para cualesquiera números $a$ y $b$, y para cualquier número natural $n$, tenemos
+			\begin{align*}
+				(a+b)^n=\sum_{i=}^{n}{\binom{n}{i}a^{i}b^{n-i}}
+			\end{align*}
+			Un caso especial de esto es 
+			\begin{align*}
+				(1+a)^n=\sum_{i=0}^{n}a^i
+			\end{align*}
+		\end{theorem}
+		\begin{demostration}{}
+			
+		\end{demostration}
+		\begin{corollary}{}
+			Para cualquier número natural $n$, tenemos
+			\begin{align*}
+				\sum_{i=0}^{n}{\binom{n}{i}}=2^n
+			\end{align*}
+		\end{corollary}
+		\subsubsection{Propiedades del coeficiente binomial}
+			\begin{property}{(a)}
+				\begin{align*}
+					\binom{n}{0}=1
+				\end{align*}    
+			\end{property}
+			\begin{demostration}{(a)}
+				
+			\end{demostration}
+			\begin{property}{(b)}
+				\begin{align*}
+					\binom{n}{1}=n=\binom{n}{n-1}
+				\end{align*}    
+			\end{property}
+			\begin{demostration}{(b)}
+				
+			\end{demostration}
+			\begin{property}{(c)}
+				\begin{align*}
+					\binom{n}{2}=1+2+\dotsb+n
+				\end{align*}    
+			\end{property}
+			\begin{demostration}{(c)}
+				
+			\end{demostration}
+			\begin{property}{(d)}
+				\begin{align*}
+					\binom{n}{k}=\binom{n}{n-k}
+				\end{align*}    
+			\end{property}
+			\begin{demostration}{(d)}
+				
+			\end{demostration}
+		\subsubsection{Pascal}
+			\begin{theorem}{Fórmula de Pascal}
+				
+			\end{theorem}    
+	\subsection{Principio de Dirichlet (del palomar, de las cajas o de las pichoneras)}

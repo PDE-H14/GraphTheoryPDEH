@@ -1,8 +1,11 @@
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Nociones de combinatoria}{4}{section.1}
-\contentsline {subsection}{\numberline {1.1}Algunas definiciones básicas}{4}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Principio de Inclusión-Exclusión}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Conjunto potencia}{6}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Permutaciones}{7}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}Coeficiente binomial}{7}{subsection.1.5}
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Nociones de combinatoria}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Algunas definiciones básicas}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Principio de Inclusión-Exclusión}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Conjunto potencia}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Permutaciones}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Coeficiente binomial}{7}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Propiedades del coeficiente binomial}{8}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Pascal}{8}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.6}Principio de Dirichlet (del palomar, de las cajas o de las pichoneras)}{8}{subsection.1.6}%
