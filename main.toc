@@ -8,4 +8,5 @@
 \contentsline {subsection}{\numberline {1.5}Coeficiente binomial}{7}{subsection.1.5}%
 \contentsline {subsubsection}{\numberline {1.5.1}Propiedades del coeficiente binomial}{8}{subsubsection.1.5.1}%
 \contentsline {subsubsection}{\numberline {1.5.2}Pascal}{8}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}Principio de Dirichlet (del palomar, de las cajas o de las pichoneras)}{8}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.5.3}Piramide de Pascal}{9}{subsubsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.6}Principio de Dirichlet (del palomar, de las cajas o de las pichoneras)}{9}{subsection.1.6}%
