@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.6.14)  31 AUG 2022 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.6.14)  7 SEP 2022 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,10 +806,215 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/tikz-network/tikz-network.s
+ty
+Package: tikz-network 2019/08/15 tikz-network v1.1
+ (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/etex-pkg/etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+
+
+Package etex Warning: Extended allocation already in use.
+(etex)                etex.sty code will not be used.
+(etex)                To force etex package to load, add
+(etex)                \RequirePackage{etex}
+(etex)                at the start of the document.
+
+) (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/local/share/miktex-texmf/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count331
+\calc@Bcount=\count332
+\calc@Adimen=\dimen273
+\calc@Bdimen=\dimen274
+\calc@Askip=\skip123
+\calc@Bskip=\skip124
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count333
+\calc@Cskip=\skip125
+)
+(/usr/local/share/miktex-texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(/usr/local/share/miktex-texmf/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/share/miktex-texmf/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/share/miktex-texmf/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count334
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/datatool/datatool.sty
+Package: datatool 2019/09/27 v2.32 (NLCT)
+
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count335
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count336
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count337
+\FP@xia=\count338
+\FP@xib=\count339
+\FP@xfa=\count340
+\FP@xfb=\count341
+\FP@rega=\count342
+\FP@regb=\count343
+\FP@regs=\count344
+\FP@times=\count345
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count346
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks47
+\@dtl@tmpcount=\count347
+\dtl@tmplength=\skip126
+\dtl@sortresult=\count348
+\@dtl@numgrpsepcount=\count349
+\@dtl@datatype=\count350
+\dtl@codeA=\count351
+\dtl@codeB=\count352
+\@dtl@foreach@level=\count353
+)
+\dtlcolumnnum=\count354
+\dtlrownum=\count355
+\@dtl@before=\toks48
+\@dtl@after=\toks49
+\@dtl@colhead=\toks50
+\dtlcurrentrow=\toks51
+\dtlbeforerow=\toks52
+\dtlafterrow=\toks53
+\dtlforeachlevel=\count356
+\c@DTLrowi=\count357
+\c@DTLrowii=\count358
+\c@DTLrowiii=\count359
+\c@DTLrow=\count360
+\dtl@rowi=\count361
+\dtl@rowii=\count362
+\dtl@rowiii=\count363
+\@dtl@curi=\toks54
+\@dtl@previ=\toks55
+\@dtl@nexti=\toks56
+\@dtl@curii=\toks57
+\@dtl@previi=\toks58
+\@dtl@nextii=\toks59
+\@dtl@curiii=\toks60
+\@dtl@previii=\toks61
+\@dtl@nextiii=\toks62
+\@dtl@elements=\count364
+\@dtl@list=\toks63
+\@dtl@rowa=\toks64
+\@dtl@rowb=\toks65
+\@dtl@toksA=\toks66
+\@dtl@toksB=\toks67
+\@dtl@write=\write5
+\@dtl@read=\read5
+\dtl@entrycr=\count365
+\dtl@omitlines=\count366
+)
+(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen275
+))
+(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box79
+\pgf@layerboxsaved@background=\box80
+)
+(/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen276
+\pgfarrowlength=\dimen277
+\pgfarrowwidth=\dimen278
+\pgfarrowlinewidth=\dimen279
+)
+(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+\c@LayerCounter=\count367
+)
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/tkz-fct/tkz-fct.sty
 2022/01/27 1.7c function tkz-fct
 Package: tkz-fct 2022/01/27 1.7c function 
-\tkz@tkzf@fct=\count331
+\tkz@tkzf@fct=\count368
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/tkz-base/tkz-base.sty
 2022/01/28 4.05b tkz-base.sty
 Package: tkz-base 2022/01/28 4.05b tkz-base
@@ -819,40 +1024,19 @@ zlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.
-tex
-File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen273
-))
-(/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/pgflibraryarrows.meta.
-code.tex
-File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen274
-\pgfarrowlength=\dimen275
-\pgfarrowwidth=\dimen276
-\pgfarrowlinewidth=\dimen277
-)
-(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.code.tex
 (/usr/local/share/miktex-texmf/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen278
-\pgfdecoratedremainingdistance=\dimen279
-\pgfdecoratedinputsegmentcompleteddistance=\dimen280
-\pgfdecoratedinputsegmentremainingdistance=\dimen281
-\pgf@decorate@distancetomove=\dimen282
-\pgf@decorate@repeatstate=\count332
-\pgfdecorationsegmentamplitude=\dimen283
-\pgfdecorationsegmentlength=\dimen284
+\pgfdecoratedcompleteddistance=\dimen280
+\pgfdecoratedremainingdistance=\dimen281
+\pgfdecoratedinputsegmentcompleteddistance=\dimen282
+\pgfdecoratedinputsegmentremainingdistance=\dimen283
+\pgf@decorate@distancetomove=\dimen284
+\pgf@decorate@repeatstate=\count369
+\pgfdecorationsegmentamplitude=\dimen285
+\pgfdecorationsegmentlength=\dimen286
 )
-\tikz@lib@dec@box=\box79
+\tikz@lib@dec@box=\box81
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.markings.code.tex
@@ -870,9 +1054,9 @@ decorations.shapes.code.tex))
 zlibrarydecorations.text.code.tex
 (/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.text.code.tex
-\pgf@lib@dec@text@box=\box80
+\pgf@lib@dec@text@box=\box82
 )
-\tikz@lib@dec@te@box=\box81
+\tikz@lib@dec@te@box=\box83
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathmorphing.code.tex
@@ -884,7 +1068,7 @@ zlibraryintersections.code.tex
 s.code.tex
 (/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
-\pgf@intersect@solutions=\count333
+\pgf@intersect@solutions=\count370
 ))
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -906,10 +1090,6 @@ File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 s.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -939,101 +1119,53 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 
 (/usr/local/share/miktex-texmf/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen285
-\ar@mcellbox=\box82
-\extrarowheight=\dimen286
-\NC@list=\toks45
-\extratabsurround=\skip123
-\backup@length=\skip124
-\ar@cellbox=\box83
+\col@sep=\dimen287
+\ar@mcellbox=\box84
+\extrarowheight=\dimen288
+\NC@list=\toks68
+\extratabsurround=\skip127
+\backup@length=\skip128
+\ar@cellbox=\box85
 )
-\c@nprt@mantissa@digitsbefore=\count334
-\c@nprt@mantissa@digitsafter=\count335
-\c@nprt@exponent@digitsbefore=\count336
-\c@nprt@exponent@digitsafter=\count337
-\nprt@digitwidth=\skip125
-\nprt@sepwidth=\skip126
-\nprt@decimalwidth=\skip127
-\nprt@blockwidth=\skip128
-\nprt@digittoks=\toks46
-\nprt@pretoks=\toks47
-\nprt@posttoks=\toks48
-\nprt@thisdigit=\count338
-\nprt@curpos=\count339
-\nprt@rndpos=\count340
-\c@nprt@digitsfirstblock=\count341
-\c@nprt@blockcnt=\count342
-\c@nprt@cntprint=\count343
+\c@nprt@mantissa@digitsbefore=\count371
+\c@nprt@mantissa@digitsafter=\count372
+\c@nprt@exponent@digitsbefore=\count373
+\c@nprt@exponent@digitsafter=\count374
+\nprt@digitwidth=\skip129
+\nprt@sepwidth=\skip130
+\nprt@decimalwidth=\skip131
+\nprt@blockwidth=\skip132
+\nprt@digittoks=\toks69
+\nprt@pretoks=\toks70
+\nprt@posttoks=\toks71
+\nprt@thisdigit=\count375
+\nprt@curpos=\count376
+\nprt@rndpos=\count377
+\c@nprt@digitsfirstblock=\count378
+\c@nprt@blockcnt=\count379
+\c@nprt@cntprint=\count380
 
 No configuration file `numprint.cfg' found.)
 (/usr/local/share/miktex-texmf/tex/latex/l3packages/xfp/xfp.sty
 Package: xfp 2022-01-12 L3 Floating point unit
 )
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp.sty
-Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/defpattern.sty
-Package: defpattern 1994/10/12
-\actioncount=\count344
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-basic.sty
-Package: fp-basic 1996/05/13
-\FP@xs=\count345
-\FP@xia=\count346
-\FP@xib=\count347
-\FP@xfa=\count348
-\FP@xfb=\count349
-\FP@rega=\count350
-\FP@regb=\count351
-\FP@regs=\count352
-\FP@times=\count353
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-addons.sty
-Package: fp-addons 1995/03/15
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-snap.sty
-Package: fp-snap 1995/04/05
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-exp.sty
-Package: fp-exp 1995/04/03
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-trigo.sty
-Package: fp-trigo 1995/04/14
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-pas.sty
-Package: fp-pas 1994/08/29
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-random.sty
-Package: fp-random 1995/02/23
-\FPseed=\count354
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-eqn.sty
-Package: fp-eqn 1995/04/03
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-upn.sty
-Package: fp-upn 1996/10/21
-)
-(/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fp/fp-eval.sty
-Package: fp-eval 1995/04/03
-))
-\tkz@ax=\dimen287
-\tkz@ay=\dimen288
-\tkz@bx=\dimen289
-\tkz@by=\dimen290
-\tkz@cx=\dimen291
-\tkz@cy=\dimen292
-\tkz@dx=\dimen293
-\tkz@dy=\dimen294
-\tkz@tax=\dimen295
-\tkz@tay=\dimen296
-\tkz@tbx=\dimen297
-\tkz@tby=\dimen298
-\tkz@tcx=\dimen299
-\tkz@tcy=\dimen300
-\tkz@tdx=\dimen301
-\tkz@tdy=\dimen302
-\tkz@cntmk=\count355
+\tkz@ax=\dimen289
+\tkz@ay=\dimen290
+\tkz@bx=\dimen291
+\tkz@by=\dimen292
+\tkz@cx=\dimen293
+\tkz@cy=\dimen294
+\tkz@dx=\dimen295
+\tkz@dy=\dimen296
+\tkz@tax=\dimen297
+\tkz@tay=\dimen298
+\tkz@tbx=\dimen299
+\tkz@tby=\dimen300
+\tkz@tcx=\dimen301
+\tkz@tcy=\dimen302
+\tkz@tdx=\dimen303
+\tkz@tdy=\dimen304
+\tkz@cntmk=\count381
 
 Local configuration file tkz-base.cfg found and used
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/tkz-base/tkz-base.cfg
@@ -1089,9 +1221,7 @@ x
 2022/01/28 4.05b tkz-obj-eu-points.tex
 ) (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/tkz-base/tkz-obj-rep.tex
 2022/01/28 4.05b tkz-obj-rep.tex
-)) ( FP-EVAL ( FP-UPN ) ) ( FP-EVAL ( FP-UPN ) ) ( FP-EVAL ( FP-UPN ( FP-SUB )
-) ) ( FP-EVAL ( FP-UPN ) ) ( FP-EVAL ( FP-UPN ( FP-SUB ) ) ) ( FP-EVAL
-( FP-UPN ) ))
+)))
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarybabel.code.tex
 File: tikzlibrarybabel.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -1100,14 +1230,6 @@ File: tikzlibrarybabel.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 zlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -1135,31 +1257,31 @@ File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/share/miktex-texmf/tex/generic/pgf/libraries/shapes/pgflibraryshape
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodepartlowerbox=\box84
-\pgfnodeparttwobox=\box85
-\pgfnodepartthreebox=\box86
-\pgfnodepartfourbox=\box87
-\pgfnodeparttwentybox=\box88
-\pgfnodepartnineteenbox=\box89
-\pgfnodeparteighteenbox=\box90
-\pgfnodepartseventeenbox=\box91
-\pgfnodepartsixteenbox=\box92
-\pgfnodepartfifteenbox=\box93
-\pgfnodepartfourteenbox=\box94
-\pgfnodepartthirteenbox=\box95
-\pgfnodeparttwelvebox=\box96
-\pgfnodepartelevenbox=\box97
-\pgfnodeparttenbox=\box98
-\pgfnodepartninebox=\box99
-\pgfnodeparteightbox=\box100
-\pgfnodepartsevenbox=\box101
-\pgfnodepartsixbox=\box102
-\pgfnodepartfivebox=\box103
+\pgfnodepartlowerbox=\box86
+\pgfnodeparttwobox=\box87
+\pgfnodepartthreebox=\box88
+\pgfnodepartfourbox=\box89
+\pgfnodeparttwentybox=\box90
+\pgfnodepartnineteenbox=\box91
+\pgfnodeparteighteenbox=\box92
+\pgfnodepartseventeenbox=\box93
+\pgfnodepartsixteenbox=\box94
+\pgfnodepartfifteenbox=\box95
+\pgfnodepartfourteenbox=\box96
+\pgfnodepartthirteenbox=\box97
+\pgfnodeparttwelvebox=\box98
+\pgfnodepartelevenbox=\box99
+\pgfnodeparttenbox=\box100
+\pgfnodepartninebox=\box101
+\pgfnodeparteightbox=\box102
+\pgfnodepartsevenbox=\box103
+\pgfnodepartsixbox=\box104
+\pgfnodepartfivebox=\box105
 )))
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryspy.code.tex
 File: tikzlibraryspy.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\tikz@lib@spybox=\box104
+\tikz@lib@spybox=\box106
 )
 (/usr/local/share/miktex-texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarysnakes.code.tex
@@ -1172,32 +1294,19 @@ Package pgf Warning: Snakes have been superseded by decorations. Please use the
 ) (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
 
-(/usr/local/share/miktex-texmf/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count356
-\calc@Bcount=\count357
-\calc@Adimen=\dimen303
-\calc@Bdimen=\dimen304
-\calc@Askip=\skip129
-\calc@Bskip=\skip130
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count358
-\calc@Cskip=\skip131
-)
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count359
+\g_MT_multlinerow_int=\count382
 \l_MT_multwidth_dim=\dimen305
-\origjot=\skip132
+\origjot=\skip133
 \l_MT_shortvdotswithinadjustabove_dim=\dimen306
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen307
 \l_MT_above_intertext_sep=\dimen308
 \l_MT_below_intertext_sep=\dimen309
 \l_MT_above_shortintertext_sep=\dimen310
 \l_MT_below_shortintertext_sep=\dimen311
-\xmathstrut@box=\box105
+\xmathstrut@box=\box107
 \xmathstrut@dim=\dimen312
 )
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/physics/physics.sty
@@ -1208,13 +1317,13 @@ y
 Package: calligra 2012/04/10 v1.9 LaTeX package calligra
 ) (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count360
-\csq@gtype=\count361
-\csq@glevel=\count362
-\csq@qlevel=\count363
-\csq@maxlvl=\count364
-\csq@tshold=\count365
-\csq@ltx@everypar=\toks49
+\csq@reset=\count383
+\csq@gtype=\count384
+\csq@glevel=\count385
+\csq@qlevel=\count386
+\csq@maxlvl=\count387
+\csq@tshold=\count388
+\csq@ltx@everypar=\toks72
 
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -1227,11 +1336,11 @@ File: csquotes.cfg
 ))
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/tensor/tensor.sty
 Package: tensor 2004/12/20 v2.1 tensor indices package (PGR)
-\tnsr@Sps=\toks50
-\tnsr@Sbs=\toks51
-\tnsr@Spe=\toks52
-\tnsr@Sbe=\toks53
-\ncld@Mno=\toks54
+\tnsr@Sps=\toks73
+\tnsr@Sbs=\toks74
+\tnsr@Spe=\toks75
+\tnsr@Sbe=\toks76
+\ncld@Mno=\toks77
 )
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
@@ -1241,32 +1350,21 @@ Package: pstricks 2021/08/23 v0.71 LaTeX wrapper for `PSTricks' (RN,HV)
 
 (/usr/local/share/miktex-texmf/tex/generic/xkeyval/pst-xkey.tex
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
-
-(/usr/local/share/miktex-texmf/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-
-(/usr/local/share/miktex-texmf/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/share/miktex-texmf/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks55
-\XKV@tempa@toks=\toks56
 )
-\XKV@depth=\count366
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)))
 (/home/porfiriodeh/.miktex/texmfs/install/tex/generic/pstricks/pstricks.tex
 (/home/porfiriodeh/.miktex/texmfs/install/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv)
-\pstFP@xs=\count367
-\pstFP@xia=\count368
-\pstFP@xib=\count369
-\pstFP@xfa=\count370
-\pstFP@xfb=\count371
-\pstFP@rega=\count372
-\pstFP@regb=\count373
-\pstFP@regs=\count374
-\pstFP@times=\count375
+\pstFP@xs=\count389
+\pstFP@xia=\count390
+\pstFP@xib=\count391
+\pstFP@xfa=\count392
+\pstFP@xfb=\count393
+\pstFP@rega=\count394
+\pstFP@regb=\count395
+\pstFP@regs=\count396
+\pstFP@times=\count397
 )
-\psLoopIndex=\count376
+\psLoopIndex=\count398
 
 `PSTricks' v3.13  <2022/01/09> (tvz,hv)
 \pst@dima=\dimen313
@@ -1279,21 +1377,21 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pst@dimn=\dimen320
 \pst@dimo=\dimen321
 \pst@dimp=\dimen322
-\pst@hbox=\box106
-\pst@ibox=\box107
-\pst@boxg=\box108
-\pst@cnta=\count377
-\pst@cntb=\count378
-\pst@cntc=\count379
-\pst@cntd=\count380
-\pst@cntg=\count381
-\pst@cnth=\count382
-\pst@cntm=\count383
-\pst@cntn=\count384
-\pst@cnto=\count385
-\pst@cntp=\count386
-\@zero=\count387
-\pst@toks=\toks57
+\pst@hbox=\box108
+\pst@ibox=\box109
+\pst@boxg=\box110
+\pst@cnta=\count399
+\pst@cntb=\count400
+\pst@cntc=\count401
+\pst@cntd=\count402
+\pst@cntg=\count403
+\pst@cnth=\count404
+\pst@cntm=\count405
+\pst@cntn=\count406
+\pst@cnto=\count407
+\pst@cntp=\count408
+\@zero=\count409
+\pst@toks=\toks78
 --- We are running latex or xelatex ---
 (/home/porfiriodeh/.miktex/texmfs/install/tex/generic/pstricks/pstricks.con)
 (/home/porfiriodeh/.miktex/texmfs/install/tex/generic/pstricks/pstricks-color.t
@@ -1301,7 +1399,7 @@ ex)
 \psunit=\dimen323
 \psxunit=\dimen324
 \psyunit=\dimen325
-\pst@C@@rType=\count388
+\pst@C@@rType=\count410
 \pslinewidth=\dimen326
 \psk@startLW=\dimen327
 \psk@endLW=\dimen328
@@ -1311,7 +1409,7 @@ tex
 \pshooklength=\dimen329
 \pshookwidth=\dimen330
 )
-\pst@customdefs=\toks58
+\pst@customdefs=\toks79
 
 (/home/porfiriodeh/.miktex/texmfs/install/tex/generic/pstricks/pstricks-dots.te
 x)
@@ -1319,13 +1417,13 @@ x)
 \pst@symbolStep=\dimen332
 \pst@symbolWidth=\dimen333
 \pst@symbolLinewidth=\dimen334
-\everypsbox=\toks59
+\everypsbox=\toks80
 \psframesep=\dimen335
 \pslabelsep=\dimen336
 \sh@wgridXunit=\dimen337
 \sh@wgridYunit=\dimen338
 \pst@shift=\dimen339
-\ps@imagectr=\count389
+\ps@imagectr=\count411
  (/home/porfiriodeh/.miktex/texmfs/install/tex/generic/pstricks/pstricks.con))
 File: pstricks.tex 2022/01/09 v3.13 `PSTricks' (tvz,hv)
  (/home/porfiriodeh/.miktex/texmfs/install/tex/generic/pstricks/pst-fp.tex
@@ -1335,41 +1433,39 @@ File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip133
-\f@nch@O@elh=\skip134
-\f@nch@O@erh=\skip135
-\f@nch@O@olh=\skip136
-\f@nch@O@orh=\skip137
-\f@nch@O@elf=\skip138
-\f@nch@O@erf=\skip139
-\f@nch@O@olf=\skip140
-\f@nch@O@orf=\skip141
+\f@nch@headwidth=\skip134
+\f@nch@O@elh=\skip135
+\f@nch@O@erh=\skip136
+\f@nch@O@olh=\skip137
+\f@nch@O@orh=\skip138
+\f@nch@O@elf=\skip139
+\f@nch@O@erf=\skip140
+\f@nch@O@olf=\skip141
+\f@nch@O@orf=\skip142
 )
 (/usr/local/share/miktex-texmf/tex/latex/tools/multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count390
-\mult@box=\box109
+\c@tracingmulticols=\count412
+\mult@box=\box111
 \multicol@leftmargin=\dimen340
-\c@unbalance=\count391
-\c@collectmore=\count392
-\doublecol@number=\count393
-\multicoltolerance=\count394
-\multicolpretolerance=\count395
+\c@unbalance=\count413
+\c@collectmore=\count414
+\doublecol@number=\count415
+\multicoltolerance=\count416
+\multicolpretolerance=\count417
 \full@width=\dimen341
 \page@free=\dimen342
 \premulticols=\dimen343
 \postmulticols=\dimen344
-\multicolsep=\skip142
-\multicolbaselineskip=\skip143
-\partial@page=\box110
-\last@line=\box111
+\multicolsep=\skip143
+\multicolbaselineskip=\skip144
+\partial@page=\box112
+\last@line=\box113
 \maxbalancingoverflow=\dimen345
-\mult@rightbox=\box112
-\mult@grightbox=\box113
-\mult@firstbox=\box114
-\mult@gfirstbox=\box115
-\@tempa=\box116
-\@tempa=\box117
+\mult@rightbox=\box114
+\mult@grightbox=\box115
+\mult@firstbox=\box116
+\mult@gfirstbox=\box117
 \@tempa=\box118
 \@tempa=\box119
 \@tempa=\box120
@@ -1404,60 +1500,62 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box149
 \@tempa=\box150
 \@tempa=\box151
-\c@minrows=\count396
-\c@columnbadness=\count397
-\c@finalcolumnbadness=\count398
+\@tempa=\box152
+\@tempa=\box153
+\c@minrows=\count418
+\c@columnbadness=\count419
+\c@finalcolumnbadness=\count420
 \last@try=\dimen346
 \multicolovershoot=\dimen347
 \multicolundershoot=\dimen348
-\mult@nat@firstbox=\box152
-\colbreak@box=\box153
-\mc@col@check@num=\count399
+\mult@nat@firstbox=\box154
+\colbreak@box=\box155
+\mc@col@check@num=\count421
 )
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count400
-\float@exts=\toks60
-\float@box=\box154
-\@float@everytoks=\toks61
-\@floatcapt=\box155
+\c@float@type=\count422
+\float@exts=\toks81
+\float@box=\box156
+\@float@everytoks=\toks82
+\@floatcapt=\box157
 )
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip144
+\labelindent=\skip145
 \enit@outerparindent=\dimen349
-\enit@toks=\toks62
-\enit@inbox=\box156
-\enit@count@id=\count401
-\enitdp@description=\count402
+\enit@toks=\toks83
+\enit@inbox=\box158
+\enit@count@id=\count423
+\enitdp@description=\count424
 )
 (/usr/local/share/miktex-texmf/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+Package hyperref Info: Option `colorlinks' set `true' on input line 38.
 
 (/usr/local/share/miktex-texmf/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/home/porfiriodeh/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box157
-\beforetitleunit=\skip145
-\aftertitleunit=\skip146
+\ttl@box=\box159
+\beforetitleunit=\skip146
+\aftertitleunit=\skip147
 \ttl@plus=\dimen350
 \ttl@minus=\dimen351
-\ttl@toksa=\toks63
+\ttl@toksa=\toks84
 \titlewidth=\dimen352
 \titlewidthlast=\dimen353
 \titlewidthfirst=\dimen354
 )
-\c@problem=\count403
-\c@definition=\count404
-\c@theorem=\count405
-\c@corollary=\count406
-\c@axiom=\count407
-\c@property=\count408
-\c@motto=\count409
+\c@problem=\count425
+\c@definition=\count426
+\c@theorem=\count427
+\c@corollary=\count428
+\c@axiom=\count429
+\c@property=\count430
+\c@motto=\count431
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1551,17 +1649,17 @@ LaTeX Info: Redefining \% on input line 7.
 
 (/usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count410
+\scratchcounter=\count432
 \scratchdimen=\dimen355
-\scratchbox=\box158
-\nofMPsegments=\count411
-\nofMParguments=\count412
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count413
+\scratchbox=\box160
+\nofMPsegments=\count433
+\nofMParguments=\count434
+\everyMPshowfont=\toks85
+\MPscratchCnt=\count435
 \MPscratchDim=\dimen356
-\MPnumerator=\count414
-\makeMPintoPDFobject=\count415
-\everyMPtoPDFconversion=\toks65
+\MPnumerator=\count436
+\makeMPintoPDFobject=\count437
+\everyMPtoPDFconversion=\toks86
 ) (/usr/local/share/miktex-texmf/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1572,10 +1670,10 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 7.
  (main.out) (main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
+\@outlinefile=\write6
+\openout6 = `main.out'.
 
-\c@lstlisting=\count416
+\c@lstlisting=\count438
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Sections/FrontPage/front_page.tex
@@ -1631,8 +1729,8 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
-\tf@toc=\write6
-\openout6 = `main.toc'.
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
 
 [3] (Sections/Combinatorics/Combinatorics.tex
@@ -1799,7 +1897,322 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 279.
-) [9] (main.aux
+) (Sections/Graphs/Graphs.tex
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 10.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 11.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 13.
+Package mdframed Info: Not enough space on this page on input line 13.
+ [9]
+Package mdframed Info: Not enough space on this page on input line 13.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 14.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 16.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 17.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 19.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 20.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 22.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 23.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 25.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 26.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 28.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 29.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 32.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 33.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 45.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 47.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 50.
+
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 50.
+
+[10]
+<Sections/Graphs/GraphsImages/GraphsKn/K1.pdf, id=183, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsKn/K1.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsKn/K1.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsKn/K1.pdf  used on 
+input line 58.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsKn/K2.pdf, id=184, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsKn/K2.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsKn/K2.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsKn/K2.pdf  used on 
+input line 62.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsKn/K3.pdf, id=185, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsKn/K3.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsKn/K3.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsKn/K3.pdf  used on 
+input line 65.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsKn/K4.pdf, id=186, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsKn/K4.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsKn/K4.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsKn/K4.pdf  used on 
+input line 69.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsKn/K5.pdf, id=187, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsKn/K5.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsKn/K5.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsKn/K5.pdf  used on 
+input line 73.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+
+Overfull \hbox (19.21094pt too wide) in paragraph at lines 54--75
+ [] 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 80.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 84.
+<Sections/Graphs/GraphsImages/GraphsTn/T1.pdf, id=188, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsTn/T1.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsTn/T1.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsTn/T1.pdf  used on 
+input line 91.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsTn/T2.pdf, id=189, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsTn/T2.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsTn/T2.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsTn/T2.pdf  used on 
+input line 95.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsTn/T3.pdf, id=190, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsTn/T3.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsTn/T3.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsTn/T3.pdf  used on 
+input line 98.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsTn/T4.pdf, id=191, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsTn/T4.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsTn/T4.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsTn/T4.pdf  used on 
+input line 102.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsTn/T5.pdf, id=192, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsTn/T5.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsTn/T5.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsTn/T5.pdf  used on 
+input line 106.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+
+Overfull \hbox (19.21094pt too wide) in paragraph at lines 87--108
+ [] 
+ []
+
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.112         \begin{definition}{Grafos $C_n$}
+                                               <./Sections/Graphs/GraphsImages/
+GraphsKn/K1.pdf> <./Sections/Graphs/GraphsImages/GraphsKn/K2.pdf> <./Sections/G
+raphs/GraphsImages/GraphsKn/K3.pdf> <./Sections/Graphs/GraphsImages/GraphsKn/K4
+.pdf> <./Sections/Graphs/GraphsImages/GraphsKn/K5.pdf>]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 112.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 123.
+<Sections/Graphs/GraphsImages/GraphsCn/C3.pdf, id=248, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsCn/C3.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsCn/C3.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsCn/C3.pdf  used on 
+input line 129.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsCn/C4.pdf, id=249, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsCn/C4.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsCn/C4.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsCn/C4.pdf  used on 
+input line 133.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsCn/C5.pdf, id=250, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsCn/C5.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsCn/C5.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsCn/C5.pdf  used on 
+input line 136.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+
+Overfull \hbox (19.21094pt too wide) in paragraph at lines 126--138
+ [] 
+ []
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.142         \begin{definition}{Grafos $S_n$}
+                                               <./Sections/Graphs/GraphsImages/
+GraphsTn/T1.pdf> <./Sections/Graphs/GraphsImages/GraphsTn/T2.pdf> <./Sections/G
+raphs/GraphsImages/GraphsTn/T3.pdf> <./Sections/Graphs/GraphsImages/GraphsTn/T4
+.pdf> <./Sections/Graphs/GraphsImages/GraphsTn/T5.pdf>]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 142.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 146.
+<Sections/Graphs/GraphsImages/GraphsSn/S1.pdf, id=302, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsSn/S1.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsSn/S1.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsSn/S1.pdf  used on 
+input line 153.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsSn/S2.pdf, id=303, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsSn/S2.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsSn/S2.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsSn/S2.pdf  used on 
+input line 157.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsSn/S5.pdf, id=304, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsSn/S5.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsSn/S5.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsSn/S5.pdf  used on 
+input line 160.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsSn/S4.pdf, id=305, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsSn/S4.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsSn/S4.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsSn/S4.pdf  used on 
+input line 164.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+File: Sections/Graphs/GraphsImages/GraphsSn/S5.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsSn/S5.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsSn/S5.pdf  used on 
+input line 168.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+
+Overfull \hbox (19.21094pt too wide) in paragraph at lines 149--170
+ [] 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 174.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 186.
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186         \end{definition}
+                              
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186         \end{definition}
+                               <./Sections/Graphs/GraphsImages/GraphsCn/C3.pdf>
+ <./Sections/Graphs/GraphsImages/GraphsCn/C4.pdf> <./Sections/Graphs/GraphsImag
+es/GraphsCn/C5.pdf> <./Sections/Graphs/GraphsImages/GraphsSn/S1.pdf> <./Section
+s/Graphs/GraphsImages/GraphsSn/S2.pdf> <./Sections/Graphs/GraphsImages/GraphsSn
+/S5.pdf> <./Sections/Graphs/GraphsImages/GraphsSn/S4.pdf>]
+Package mdframed Info: Not enough space on this page on input line 186.
+<Sections/Graphs/GraphsImages/GraphsWn/W2.pdf, id=378, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsWn/W2.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsWn/W2.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsWn/W2.pdf  used on 
+input line 193.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsWn/W3.pdf, id=379, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsWn/W3.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsWn/W3.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsWn/W3.pdf  used on 
+input line 197.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsWn/W4.pdf, id=380, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsWn/W4.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsWn/W4.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsWn/W4.pdf  used on 
+input line 201.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+<Sections/Graphs/GraphsImages/GraphsWn/W5.pdf, id=381, 142.26349pt x 142.26349p
+t>
+File: Sections/Graphs/GraphsImages/GraphsWn/W5.pdf Graphic file (type pdf)
+<use Sections/Graphs/GraphsImages/GraphsWn/W5.pdf>
+Package pdftex.def Info: Sections/Graphs/GraphsImages/GraphsWn/W5.pdf  used on 
+input line 204.
+(pdftex.def)             Requested size: 142.26312pt x 142.26312pt.
+) [14
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.19 \end{document}
+                    <./Sections/Graphs/GraphsImages/GraphsWn/W2.pdf> <./Section
+s/Graphs/GraphsImages/GraphsWn/W3.pdf> <./Sections/Graphs/GraphsImages/GraphsWn
+/W4.pdf> <./Sections/Graphs/GraphsImages/GraphsWn/W5.pdf>] (main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
@@ -1808,17 +2221,23 @@ LaTeX Info: Redefining \% on input line 24.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F7BCBDD75F5F648CB56C64C3B00BC55F;1994.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: F7BCBDD75F5F648CB56C64C3B00BC55F;1994
+(rerunfilecheck)             After:  473E2C479AA4E67A0C850CCF433D52F9;2478.
  ) 
 Here is how much of TeX's memory you used:
- 38574 strings out of 480549
- 763012 string characters out of 2895194
- 1147267 words of memory out of 3000000
- 55640 multiletter control sequences out of 15000+600000
+ 40787 strings out of 480549
+ 807425 string characters out of 2895194
+ 1205148 words of memory out of 3000000
+ 57750 multiletter control sequences out of 15000+600000
  486385 words of font info for 72 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 88i,17n,114p,493b,946s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,17n,114p,493b,946s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ec
 bx1200.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
 pi600/ecbx1000.pk> </home/porfiriodeh/.miktex/texmfs/data/fonts/pk/ljfour/jknap
@@ -1831,15 +2250,17 @@ tex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/miktex-te
 xmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fo
 nts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/share/miktex-texmf/fonts/typ
 e1/public/amsfonts/cm/cmmi7.pfb></usr/local/share/miktex-texmf/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsf
-onts/cm/cmr5.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
-cmr7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></us
-r/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local
-/share/miktex-texmf/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 3549006 bytes).
+ic/amsfonts/cm/cmmi8.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm
+/cmr5.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr6.pf
+b></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/share/m
+iktex-texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/share/miktex-t
+exmf/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (14 pages, 3667569 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 739 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 309 words of extra memory for PDF output out of 10000 (max. 10000000)
 

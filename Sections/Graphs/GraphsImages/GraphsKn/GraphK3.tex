@@ -1,0 +1,19 @@
+\documentclass[12pt]{article}
+\usepackage[papersize={5cm,5cm},tmargin=5mm,bmargin=5mm,lmargin=5mm,rmargin=5mm]{geometry}
+\usepackage{tikz-network}
+
+\begin{document}
+\pagestyle{empty}
+\thispagestyle{empty}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}
+            \Vertex[x=-1, size=0.5, label=$v_1$]{A}
+            \Vertex[x=1, size=0.5, label=$v_2$]{B}
+            \Vertex[y=1.5, size=0.5, label=$v_3$]{C}
+            \Edge(A)(B)
+            \Edge(A)(C)
+            \Edge(C)(B)
+        \end{tikzpicture}
+    \end{figure}
+\end{document}

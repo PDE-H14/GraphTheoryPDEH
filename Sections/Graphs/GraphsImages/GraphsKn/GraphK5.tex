@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\usepackage[papersize={5cm,5cm},tmargin=5mm,bmargin=5mm,lmargin=5mm,rmargin=5mm]{geometry}
+\usepackage{tikz-network}
+
+\begin{document}
+\pagestyle{empty}
+\thispagestyle{empty}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}
+            \Vertex[x=0, y=0.904, size=0.5, label=$v_1$]{A}
+            \Vertex[x=0.988, y=0.25, size=0.5, label=$v_2$]{B}
+            \Vertex[x=0.679, y=-0.904, size=0.5, label=$v_3$]{C}
+            \Vertex[x=-0.679, y=-0.904, size=0.5, label=$v_4$]{D}
+            \Vertex[x=-0.988, y=0.25, size=0.5, label=$v_5$]{E}
+            \Edge(A)(B)
+            \Edge(A)(C)
+            \Edge(A)(D)
+            \Edge(A)(E)
+            \Edge(B)(C)
+            \Edge(B)(D)
+            \Edge(B)(E)
+            \Edge(C)(D)
+            \Edge(C)(E)
+            \Edge(D)(E)
+        \end{tikzpicture}
+    \end{figure}
+\end{document}
