@@ -13,3 +13,4 @@
 \contentsline {section}{\numberline {2}Teoría de grafos}{9}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Conceptos básicos}{9}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Clases especiales de grafos}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Parámetros de un grafo}{14}{subsection.2.3}%
